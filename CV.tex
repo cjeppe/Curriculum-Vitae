@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{me.jpg} % Profile picture
+
+\cvname{Chris Jeppesen} % Your name
+\cvjobtitle{Master student within\\ Control \& Automation} % Job title/career
+
+\cvdate{3 October 1994} % Date of birth
+\cvaddress{Aalborg, Denmark} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+45 60151705} % Phone number
+%\cvsite{http://en.wikipedia.org} % Personal website
+\cvmail{chris\_jeppesen@hotmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I am a 23 year old easygoing, hard working and passionate Master student at Aalborg University. Who enjoys being a part of a team working on solving complex engineering problems. I have a particularly interest in automation and robotics. My skill set is evolving around these interest and includes modelling of dynamical systems, state estimation theory, optimal control and implementing control solutions for systems with real-time requirements.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Teamwork and project based work/5.2},{Modelling and Control of systems/5.5},{Mathematical Optimization/3.5},{Programming of Embedded systems/2.5},{Cpp/4},{Matlab/5}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\vfill
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2016-}{M.Sc. Master of Science in Engineering in Control and Automation\\ at Aalborg University}{}{Through my studies I have been practicing project-oriented work and cooperated with a broad range of students on solving complex problems. Therefore, I find it natural to engage into new projects and teams. Through my studies, I have been developing skills and experience with developing and implementing control and estimation systems for various dynamical systems with real-time requirements. With special focus within the field of robotic applications. I have especially been working with and applying Non-Linear Control Theory, State Estimation Theory, Multi-Agent systems and Model Predictive Control. Within my master thesis I am working with Cooperative Intersection Management for multiple autonomous vehicles. This project has especially allowed me to obtain experience with both theoretical and practical challenges related to optimization-based control of multi-agent systems.}
+	\twentyitem{2013-2016}{B.Sc. Bachelor of Science in Electronic Engineering and IT\\ at Aalborg University}{}{Through my studies, within the field of Electrical Engineering and IT, I have obtained knowledge about design and implementation of analog electronics as well as digital electronics. Furthermore, I have obtained a strong theoretical and practical foundation within mathematics and programming for solving a broad range of complex engineering problems.}
+	\twentyitem{2010-2013}{High school}{HTX EUC Nord Frederikshavn}{Mathematics, Physics and Programming}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Publications}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+%	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+%	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+%	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+%	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+%	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vfill
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2017-}{Student Helper}{Job}{Student Helper within the section for Wireless Communication Networks at Aalborg University.\\ This job is evolving around a test platform developed to support student projects related to self-driving vehicles. Within the job my responsibilities has been ranging from developing and maintaining the test platform, introducing new students to the platform and at various occasions representing the University by presenting ongoing activities within the department of Electronic Systems. One example is the annual Folkemøde at Bornholm in Denmark. Which I attended to present and promote the Universities activities within the field of self-driving vehicles. Furthermore the job let me to attending the Mobile World Congress in Barcelona 2018. I attended the congress as technical support for a demonstration by Nokia Bell Labs. The demonstration was to a great extent based on work I had performed in my position as student helper. From the employment as Student Helper I have gained experience with. Communicating scientific work to a broad range of audience with different background and education level. Experience with developing and implementing a control and estimation system for small scale self-driving cars.}
+	\twentyitem{2012-2014}{1.st. Assistant Lidl Denmark}{Job}{The employment as 1.st. assistant within a supermarket let me to my first experience with managing and leading small teams of people.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+\vfill
+
+\end{document} 
