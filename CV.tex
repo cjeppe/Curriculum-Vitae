@@ -7,7 +7,7 @@
 % http://www.LaTeXTemplates.com
 %
 % Original author:
-% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
 % Vel (vel@LaTeXTemplates.com)
 %
 % License:
@@ -26,15 +26,15 @@
 %----------------------------------------------------------------------------------------
 
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
-
+\usepackage{pdfpages}
 \profilepic{me.jpg} % Profile picture
 
 \cvname{Chris Jeppesen} % Your name
-\cvjobtitle{Master student within\\ Control \& Automation} % Job title/career
+\cvjobtitle{Civilingeniør, regulering og automation} % Job title/career
 
-\cvdate{3 October 1994} % Date of birth
-\cvaddress{Aalborg, Denmark} % Short address/location, use \newline if more than 1 line is required
-\cvnumberphone{+45 60151705} % Phone number
+\cvdate{24 år} % Date of birth
+\cvaddress{Aalborg} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+45 60 15 17 05} % Phone number
 %\cvsite{http://en.wikipedia.org} % Personal website
 \cvmail{chris\_jeppesen@hotmail.com} % Email address
 
@@ -46,14 +46,14 @@
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{I am a 23 year old easygoing, hard working and passionate Master student at Aalborg University. Who enjoys being a part of a team working on solving complex engineering problems. I have a particularly interest in automation and robotics. My skill set is evolving around these interest and includes modelling of dynamical systems, state estimation theory, optimal control and implementing control solutions for systems with real-time requirements.} % To have no About Me section, just remove all the text and leave \aboutme{}
+\aboutme{Jeg er en ambitiøs og nysgerrig færdigudannede Civilingeniør med speciale i regulering og automation. Jeg finder stor glæde og motivation ved at samarbejde i teams om at løse komplicerede ingeniørmæssige opgaver. Mine interesser ligger specielt inden for reguleringssystemer. Derfor er min viden og erfaring centreret omkring disse interesser.} % To have no About Me section, just remove all the text and leave \aboutme{}
 
 %----------------------------------------------------------------------------------------
 %	 SKILLS
 %----------------------------------------------------------------------------------------
 
 % Skill bar section, each skill must have a value between 0 an 6 (float)
-\skills{{Teamwork and project based work/5.2},{Modelling and Control of systems/5.5},{Mathematical Optimization/3.5},{Programming of Embedded systems/2.5},{Cpp/4},{Matlab/5}}
+\skills{{Teamwork og projektbaseret arbejde/5.2},{Modellering og kontrol af systemer/5.5},{Matematisk optimering/3.5},{Programmering af indlejerede systemer/4},{C++/5},{Matlab/6}}
 
 %------------------------------------------------
 
@@ -68,19 +68,23 @@
 %	 INTERESTS
 %----------------------------------------------------------------------------------------
 
-%\section{Interests}
+\section{Faglig profil}\\[0.2cm]
+Nyudannede civilingeniør med speciale i regulering og automation. Med gode samarbejdsevner på baggrund af min udannelse på Aalborg universitet. Gennem studiet og studiejob har jeg arbejdet med matematisk modellering af komplekse dynamiske systemer samt design og implementering af reguleringssløjfer og tilstands estimatorer til systemer med real-tids krav. Som softwareudvikler hos MAN Energy solutions vil jeg tilføje teamet stærke matematiske kompetancer, erfaring med at løse komplekse problemer samt stærke programmerings kompetancer. Jeg er stærk i C, C++ samt MATLAB men er også kompetent i python og R.
 
 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
 \vfill
-\section{Education}
+\section{Uddannelse}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{2016-}{M.Sc. Master of Science in Engineering in Control and Automation\\ at Aalborg University}{}{Through my studies I have been practicing project-oriented work and cooperated with a broad range of students on solving complex problems. Therefore, I find it natural to engage into new projects and teams. Through my studies, I have been developing skills and experience with developing and implementing control and estimation systems for various dynamical systems with real-time requirements. With special focus within the field of robotic applications. I have especially been working with and applying Non-Linear Control Theory, State Estimation Theory, Multi-Agent systems and Model Predictive Control. Within my master thesis I am working with Cooperative Intersection Management for multiple autonomous vehicles. This project has especially allowed me to obtain experience with both theoretical and practical challenges related to optimization-based control of multi-agent systems.}
-	\twentyitem{2013-2016}{B.Sc. Bachelor of Science in Electronic Engineering and IT\\ at Aalborg University}{}{Through my studies, within the field of Electrical Engineering and IT, I have obtained knowledge about design and implementation of analog electronics as well as digital electronics. Furthermore, I have obtained a strong theoretical and practical foundation within mathematics and programming for solving a broad range of complex engineering problems.}
-	\twentyitem{2010-2013}{High school}{HTX EUC Nord Frederikshavn}{Mathematics, Physics and Programming}
+	\twentyitem{2016-2018}{Civilingeniør i regulering og automation (Cand.Polyt.)\\ Aalborg University}{Karakter gennemsnit: 11,5}{Fagligt fokus: Udvikle viden og erfaring gennem projektarbejde og problem baseret læring inden for emner som matematisk modellering af komplekse dynamiske systemer. Anvende lineær såvel som ikke-lineær regulerings teori. Matematiske optimering med fokus på design af optimale reguleringssløjfer. Designe og anvende system tilstands estimatorer.\\
+Speciale: "Distributed Model Predictive Control for Cooperative Intersection Management of Autonomous Vehicles". Formålet med specialet var at opnå optimal og sikker afvikling af trafik for et netværk af selvkørende biler. Specialet var ambitiøst og resulterede i karakteren 12. Specialet inkluderede praktiske såvel som teoretiske avanceret problem stillinger for et kandidat speciale af denne art. \textit{Udsagn herom, er vedhæftet dette CV.}
+	}
+	\twentyitem{2013-2016}{Bachelor i teknisk videnskab (Elektronik og It)\\ Aalborg University}{Karakter gennemsnit: 10,3}{Fagligt fokus: Opnå viden og erfaring med design og implementering af analog elektronik såvel som digital elektronik. Hvilket inkluderer at udvikle et stærkt teoretisk og praktisk fundament inden for matematik og programmering. \\
+Bachelorprojekt: "Balancing SmartGurlz Robot Controller". Fokus var på at udvikle, implementerer og teste et reguleringssystem til en balancerende Segway lignende robot. Projektet resulterede i karakteren 12
+}
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
@@ -115,13 +119,21 @@
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
 \vfill
-\section{Experience}
+\section{Erfaring}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{2017-}{Student Helper}{Job}{Student Helper within the section for Wireless Communication Networks at Aalborg University.\\ This job is evolving around a test platform developed to support student projects related to self-driving vehicles. Within the job my responsibilities has been ranging from developing and maintaining the test platform, introducing new students to the platform and at various occasions representing the University by presenting ongoing activities within the department of Electronic Systems. One example is the annual Folkemøde at Bornholm in Denmark. Which I attended to present and promote the Universities activities within the field of self-driving vehicles. Furthermore the job let me to attending the Mobile World Congress in Barcelona 2018. I attended the congress as technical support for a demonstration by Nokia Bell Labs. The demonstration was to a great extent based on work I had performed in my position as student helper. From the employment as Student Helper I have gained experience with. Communicating scientific work to a broad range of audience with different background and education level. Experience with developing and implementing a control and estimation system for small scale self-driving cars.}
-	\twentyitem{2012-2014}{1.st. Assistant Lidl Denmark}{Job}{The employment as 1.st. assistant within a supermarket let me to my first experience with managing and leading small teams of people.}
+	\twentyitem{2018 - }{Ph.D. Pålidelige kommunikationssystemer til mobile robotter}{}{Forskning med fokus på forståelsen af kommunikations kravene for nye teknologier såsom sværme af droner, konvojkørsel af biler, samt industrielle autonome robotter. Alt sammen med henblik på udvikling af det nuværende cellulære 4G telekommunikations netværk samt kommende 5G udgaver.}
+	\twentyitem{2017-2018}{Studenter medhjælper}{Sektion for Wireless Communication Networks AAU}{Jobbet var centreret omkring en test platform, der anvendes i projekter på universitetet omhandlede selvkørende biler. Mine ansvarsområder i jobbet bestod i at udvikle og vedligeholde platform, samt at repræsenteres sektions aktiviteter til en bred vifte af besøgende gæster. Test platformen med selvkørende biler, blev anvendt af Nokia Bell Labs som demonstration ved Mobile World Congress i Barcelona. Demonstrationen var i høj grad baseret på arbejde som jeg udførte under min ansættelse.}
+	\twentyitem{2012-2014}{Første assistent Lidl Danmark}{Lidl Danmark}{Ansættelsen som første assistent i et supermarked førte mig til min første erfaring med at lede mindre teams samt at håndtere stressede situationer.}
+
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
-\vfill
 
-\end{document} 
+\vfill
+\section{Fritidsinteresser}
+
+Jeg holder mig aktiv i min fritid gennem løb. Derudover bruger jeg min fritid på at "nørde" med forskellige projekter af både programmeringsmæssige art såvel som huslige og håndværksmæssige art.
+
+\vfill
+\includepdf[pages=-]{RecommendationChrisJeppesen.pdf}
+\end{document}
