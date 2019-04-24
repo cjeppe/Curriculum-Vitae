@@ -182,8 +182,7 @@
 \newcommand{\sectioncolor}[1]{%
 	{%
 		\round{#1}{
-			\ifcase\value{colorCounter}%
-			maingray\or%
+			\ifcase\value{colorCounter}%			
 			mainblue\or%
 			maingray\or%
 			mainblue\or%
