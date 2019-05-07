@@ -80,7 +80,7 @@
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
 
 % Command for printing skill progress bars
-\newcommand\skills[1]{ 
+\newcommand\skills[1]{
 	\renewcommand{\skills}{
 		\begin{tikzpicture}
 			\foreach [count=\i] \x/\y in {#1}{
@@ -93,10 +93,10 @@
 }
 
 % Command for printing skills text
-\newcommand\skillstext[1]{ 
+\newcommand\skillstext[1]{
 	\renewcommand{\skillstext}{
 		\begin{flushleft}
-			\foreach [count=\i] \x/\y in {#1}{ 
+			\foreach [count=\i] \x/\y in {#1}{
 				\x$ \star $\y
 			}
 		\end{flushleft}
@@ -115,9 +115,9 @@
 	%------------------------------------------------
 
 	\begin{textblock}{6}(0.5, 0.2)
-			
+
 		%------------------------------------------------
-		
+
 		\ifthenelse{\equal{\profilepic}{}}{}{
 			\begin{center}
 				\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
@@ -147,25 +147,25 @@
 		\end{tabular}
 
 		%------------------------------------------------
-		
+
 		\ifthenelse{\equal{\aboutme}{}}{}{
-			\profilesection{About me}
+			\profilesection{Om mig}
 			\begin{flushleft}
 				\aboutme
 			\end{flushleft}
 		}
 
 		%------------------------------------------------
-        
-		\profilesection{Skills}
+
+		\profilesection{Kompetencer}
 
 		\skills
 		\skillstext
 		\scriptsize
 		%(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]		]
-			
+
 		%------------------------------------------------
-			
+
 	\end{textblock}
 }
 
@@ -182,8 +182,7 @@
 \newcommand{\sectioncolor}[1]{%
 	{%
 		\round{#1}{
-			\ifcase\value{colorCounter}%
-			maingray\or%
+			\ifcase\value{colorCounter}%			
 			mainblue\or%
 			maingray\or%
 			mainblue\or%
