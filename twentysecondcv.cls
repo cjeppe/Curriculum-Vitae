@@ -220,7 +220,7 @@
 
 % New environment for the long list
 \newenvironment{twenty}{%
-	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.15\textwidth}p{0.83\textwidth}}
 }{%
 	\end{tabular*}
 }
